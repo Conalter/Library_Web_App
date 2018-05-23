@@ -1,5 +1,7 @@
 package books;
 
+import borrowers.Borrower;
+
 public class Book {
 
     private int id;
