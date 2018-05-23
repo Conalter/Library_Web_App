@@ -1,7 +1,6 @@
 package borrowers;
 
 import books.Book;
-import com.sun.javaws.jnl.LibraryDesc;
 
 import java.util.ArrayList;
 
@@ -9,12 +8,14 @@ public class Borrower {
 
     private String Name;
     private ArrayList<Book> books;
-    private String Library;
+
+    private Library Library;
     private int id;
 
-    public Borrower(String name, books, Library library) {
+    public Borrower(String name, Library library) {
         this.Name = name;
-        this.Book = new ArrayList<Book>();
+        this.books = new ArrayList<Book>();
+
         Library = new library;
     }
 
