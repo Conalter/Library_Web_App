@@ -1,6 +1,7 @@
 package books;
 
 import borrowers.Borrower;
+import libraries.Library;
 
 public class Book {
 

@@ -1,3 +1,4 @@
+import libraries.Library;
 import org.junit.Before;
 
 public class LibraryTest {
@@ -7,6 +8,6 @@ public class LibraryTest {
     @Before
 
     public void before() {
-        library = new Library();
+        library = new Library("Glasgow Library");
     }
 }
